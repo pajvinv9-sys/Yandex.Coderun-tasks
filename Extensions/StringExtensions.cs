@@ -2,22 +2,21 @@
 using System.Linq;
 using System.Text;
 
-namespace coderun
+namespace coderun;
+
+public static class StringExtensions
 {
-    public static class StringExtensions
+    public static List<int> ConvertFromStringToListOfInt(this string s)
+        => [.. s.Split().Select(i => int.Parse(i))];
+
+    public static string Reverse(this string s)
     {
-        public static List<int> ConvertFromStringToListOfInt(this string s)
-            => [.. s.Split().Select(i => int.Parse(i))];
+        StringBuilder stringBuilder = new();
 
-        public static string Reverse(this string s)
+        for (int l = s.Length - 1; l >= 0; l--)
         {
-            StringBuilder stringBuilder = new();
-
-            for (int l = s.Length - 1; l >= 0; l--)
-            {
-                stringBuilder.Append(s[l]);
-            }
-            return stringBuilder.ToString();
+            stringBuilder.Append(s[l]);
         }
+        return stringBuilder.ToString();
     }
 }

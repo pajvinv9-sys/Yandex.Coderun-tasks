@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yandex.Coderun-tasks", "Yandex.Coderun-tasks.csproj", "{DAD02664-8F4E-41A9-849A-4E5927D8D755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD02664-8F4E-41A9-849A-4E5927D8D755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD02664-8F4E-41A9-849A-4E5927D8D755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD02664-8F4E-41A9-849A-4E5927D8D755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD02664-8F4E-41A9-849A-4E5927D8D755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1DC241F-C2ED-4B5E-AB30-109EB79E223E}
+	EndGlobalSection
+EndGlobal

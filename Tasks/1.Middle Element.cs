@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace coderun;
+﻿namespace coderun;
 public static class MiddleElement
 {
     public static int GetMiddleElement(this string s)
@@ -30,10 +26,4 @@ public static class MiddleElement
 
         return l[0];
     }
-}
-
-public static class StringToListOfInt
-{
-    public static List<int> ConvertFromStringToListOfInt(this string s)
-        => [.. s.Split().Select(i => int.Parse(i))];
 }

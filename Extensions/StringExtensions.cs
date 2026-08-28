@@ -18,5 +18,5 @@ public static class StringExtensions
             stringBuilder.Append(s[l]);
         }
         return stringBuilder.ToString();
-    }
+    }   
 }

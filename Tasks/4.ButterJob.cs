@@ -15,13 +15,6 @@ public static class ButterJob
         int stringNum = (c.x + c.y - 2) / 3;
         int inStringNum = ((c.x > c.y) ? c.y : c.x) - stringNum - 1;
 
-        long ans = 1;
-
-        for (int k = 0; k < inStringNum; k++)
-        {
-            ans = ans * (stringNum - k) / (k + 1);
-        }
-
-        return ans;
+        return Combinatorics.GetPascalTriangleNumber(stringNum, inStringNum);
     }
 }
